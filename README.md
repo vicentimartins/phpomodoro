@@ -4,6 +4,10 @@ em uma aplicação php-cli.
 
 ### Dependencias
 
+* PHP >= 7.0
+* php-dev
+* php-json
+* php-ds
 * PHPUnit
 * SQLite3
 
