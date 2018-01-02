@@ -2,3 +2,5 @@ vendor/
 docs/
 .gitignore
 .phpintel
+.env
+composer.lock
