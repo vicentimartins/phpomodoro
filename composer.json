@@ -1,16 +1,12 @@
 {
     "name": "vicentimartins/phpomodoro",
-    "description": "Pomodoro Timer em uma aplicação php-cli",
+    "description": "Pomodoro Timer in a cli app",
     "type": "project",
     "license": "GPL3",
     "authors": [
         {
             "name": "vicentimartins",
             "email": "geo.martins7@gmail.com"
-        },
-        {
-            "name": "Osmar Villalba",
-            "email": "osmarvillalbagonzalez@gmail.com"
         }
     ],
     "require": {
@@ -22,8 +18,15 @@
     },
     "autoload": {
         "psr-4": {
-            "PHPomodoro\\": "src/",
+            "PHPomodoro\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
             "Test\\": "tests/"
         }
+    },
+    "scripts": {
+        "tests": "./vendor/bin/phpunit --colors=always"
     }
 }
